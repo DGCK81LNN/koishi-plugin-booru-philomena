@@ -1,0 +1,44 @@
+{
+  "name": "koishi-plugin-booru-philomena",
+  "description": "Image service from Derpibooru or any other Philomena-based imagebooru for Koishi",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "service",
+    "plugin",
+    "booru",
+    "image",
+    "picture",
+    "random",
+    "setu",
+    "philomena",
+    "derpibooru",
+    "trixiebooru",
+    "ponybooru",
+    "ponerpics",
+    "manebooru"
+  ],
+  "koishi": {
+    "description": {
+      "zh": "涩图插件 - Derpibooru 或任何基于 Philomena 的图站支持"
+    },
+    "service": {
+      "require": [
+        "booru"
+      ]
+    },
+    "preview": true
+  },
+  "peerDependencies": {
+    "koishi": "^4.17.8",
+    "koishi-plugin-booru": "^1.2.0"
+  }
+}
